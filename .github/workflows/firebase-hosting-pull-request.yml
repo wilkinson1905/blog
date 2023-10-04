@@ -25,9 +25,12 @@ jobs:
           HUGO_ENVIRONMENT: production
           HUGO_ENV: production
         run:  hugo -E -F --minify -d ../public
-        
-      - uses: FirebaseExtended/action-hosting-deploy@v0
+
+      - name: Deploy preview
+        uses: FirebaseExtended/action-hosting-deploy@v0
         with:
           repoToken: '${{ secrets.GITHUB_TOKEN }}'
           firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_BLOWFISH_TUTORIAL }}'
+          expires: 30d
+          channelId: preview-${{ github.event.number }}
           projectId: blowfish-tutorial
