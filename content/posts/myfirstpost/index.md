@@ -1,11 +1,14 @@
 ---
-title: "My first post"
-date: 2023-08-14
+title: "初投稿"
+date: 2024-12-04
 draft: false
-summary: "This is my first post on my site"
-tags: ["space"]
+summary: "自己紹介"
+tags: ["日常"]
 ---
 
-## A sub-title
+## ご挨拶
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi nibh nisl, vulputate eu lacus vitae, maximus molestie libero. Vestibulum laoreet, odio et sollicitudin sollicitudin, quam ligula tempus urna, sed sagittis eros eros ac felis. In tristique tortor vitae lacinia commodo. Mauris venenatis ultrices purus nec fermentum. Nunc sit amet aliquet metus. Morbi nisl felis, gravida ac consequat vitae, blandit eu libero. Curabitur porta est in dui elementum porttitor. Maecenas fermentum, tortor ac feugiat fringilla, orci sem sagittis massa, a congue risus ipsum vel massa. Aliquam sit amet nunc vulputate, facilisis neque in, faucibus nisl.
+はじめまして。Wilkinson1905と申します。
+職業はAIエンジニア、趣味はレトロゲームとプログラミング、電子工作です。
+1歳の子どもがいます。
+いろいろな日常をこれから記録していこうと思います。
